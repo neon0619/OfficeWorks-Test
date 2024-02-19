@@ -1,0 +1,50 @@
+.product-list-container {
+    background-color: transparent !important;
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .filter-wrapper{
+        margin:auto !important;
+
+        input{
+          margin: 1rem;
+        }
+
+        select {
+          padding: 0.5rem
+        }
+      }
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: -0.025em;
+        font-weight: 700;
+        --tw-text-opacity: 1;
+        color: rgb(17 24 39 / var(--tw-text-opacity));
+    }
+
+    input {
+      padding: 5px;
+      width: 200px;
+      border: 1px solid #7DD3FC;
+    }
+
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        flex-direction: row;
+      }
+      
+      .product-card {
+        margin: 8px;
+      }
+}

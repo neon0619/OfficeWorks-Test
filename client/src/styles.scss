@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@font-face {
+    font-family: 'Calibri';
+    src: local('Calibri'), local('Calibri Regular'), url('path-to-your-font.woff2') format('woff2');
+  }
+  
+  body {
+    background-color: #ebedf4;
+    font-family: 'Calibri', Arial, sans-serif;
+  }
+  
+  // The rest of your styles
+  

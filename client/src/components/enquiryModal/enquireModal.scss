@@ -1,0 +1,99 @@
+.enquire-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  
+    .modal {
+      background: white;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+    
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #7DD3FC;
+      color: white;
+      padding: 16px;
+    }
+    
+    .modal-header button {
+      background: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    
+    .modal-content {
+      padding: 16px;
+
+      .enquiry-form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            margin: 1rem;
+        }
+      }
+
+      .api-message-wrapper {
+        width: auto;
+        background-color: #5cb85c;
+
+        .api-message {
+            color: white !important;
+            text-align: center;
+        }
+      }
+    }
+    
+    .product-image-modal img {
+      max-width: 40%;
+      height: auto;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .product-info {
+      padding: 16px;
+    }
+    
+    .category, .price, .rating, .description {
+      margin-bottom: 16px;
+    }
+    
+    .description {
+      font-style: italic;
+    }
+  
+    .modal-button-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+  
+      button {
+        font-size: 1rem;
+        color: #f3f4f6;
+        padding: 0.4rem;
+        background-color: #7DD3FC;
+        border-radius: 0.2rem;
+        margin: 0.2rem;
+      }
+    }
+    
+  }
+  
+  

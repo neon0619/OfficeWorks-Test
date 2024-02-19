@@ -1,0 +1,34 @@
+/* You should remove the '#navbar' selector and use the class '.navbar' directly in your component. */
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0rem;
+
+    .logo {
+      text-decoration: none;
+      color: #6e6e6e;
+      font-weight: bold;
+    }
+    
+     ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      justify-content: flex-end;
+    }
+    
+     li {
+      margin-right: 1rem;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #6e6e6e;
+      font-size: 1rem;
+    }
+  }
+  
+  
+  
