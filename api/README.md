@@ -7,7 +7,7 @@ Please see intruction on how to run it. If you have question you can contact me
 Use package manage `npm`
 
 ```bash
-//open test-christopher folder
+//open OfficeWorks-Test folder
 git pull
 cd api
 npm install
